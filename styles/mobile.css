@@ -1,0 +1,145 @@
+/* MOBILE */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  background-color: var(--nav-color);
+  color: white;
+  padding: 15px;
+}
+.nav__btn {
+  display: none;
+}
+.nav__logo {
+  width: 100%;
+}
+.nav__list {
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.nav__item {
+  width: 100%;
+  text-align: center;
+}
+.nav__link {
+  color: white;
+  padding: 5px 5px;
+  letter-spacing: 1.5;
+}
+
+/* MAIN HERO */
+.hero__container {
+  padding: 20px;
+  height: 100%;
+}
+/* .hero__header {
+    border: 2px solid orange;
+  } */
+.hero__title {
+  color: white;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.hero__text {
+  color: white;
+  margin: 10px 0;
+  /* font-weight: lighter; */
+}
+.hero__btn {
+  margin-top: 20px;
+  background-color: var(--btn-green);
+  transition: 0.3s ease-in-out;
+}
+.hero__btn:hover {
+  background-color: white;
+  box-shadow: 0 0 0 2px var(--btn-green);
+  color: var(--btn-green);
+}
+.hero__image {
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.hero__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* HAMBURGER MENU */
+
+.hamburger-icon {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+}
+#menu-switcher {
+  display: none;
+}
+span {
+  display: block;
+  position: relative;
+  width: 35px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: white;
+}
+span::before,
+span::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: white;
+}
+span::before {
+  top: -10px;
+}
+span::after {
+  top: 10px;
+}
+input:checked ~ .hamburger-icon span {
+  background-color: transparent;
+}
+input:checked ~ .hamburger-icon span::before {
+  transform: rotate(45deg) translateY(14px);
+  height: 3px;
+}
+input:checked ~ .hamburger-icon span::after {
+  transform: rotate(-45deg) translateY(-14px);
+  height: 3px;
+}
+input:checked ~ .hamburger-icon {
+  right: 0;
+}
+input:checked ~ .nav__list {
+  display: flex;
+}
+
+/* FEATURES SECTION */
+.feature__image {
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #207cca 15%,
+    #2989d8 50%,
+    #7db9e8 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
