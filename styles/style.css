@@ -3,6 +3,7 @@
   --text-color-light: #a199a1;
   --nav-color: #2c2c2c;
   --btn-green: #6febed;
+  --btn-blue: #46b3fa;
 }
 
 * {
@@ -10,12 +11,12 @@
   /* font-size: 12px; */
 }
 .row {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  outline: 2px solid red;
+  border: 2px solid red;
 }
 .container {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0 auto;
   outline: 2px solid blue;
 }
@@ -37,7 +38,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 90vh;
+  height: 90vh;
 }
 
 /* MOBILE */
@@ -79,6 +80,9 @@ header {
 .hero__container {
   padding: 20px;
 }
+/* .hero__header {
+  border: 2px solid orange;
+} */
 .hero__title {
   color: white;
   font-weight: lighter;
@@ -103,9 +107,14 @@ header {
 .hero__image {
   text-align: center;
   margin-top: 80px;
+  width: 100%;
+  height: 100%;
+
+  /* height: 600px; */
 }
 .hero__image img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 /* HAMBURGER MENU */
@@ -160,6 +169,7 @@ input:checked ~ .nav__list {
   display: flex;
 }
 @media (min-width: 900px) {
+  /* HERO */
   .hero__container {
     display: flex;
     justify-content: center;
@@ -169,5 +179,51 @@ input:checked ~ .nav__list {
   .hero__image {
     margin-top: 20px;
     width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  /* NAV */
+  .nav {
+    background-color: transparent;
+    justify-content: space-between;
+  }
+  .nav__logo {
+    width: 10%;
+  }
+  .nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+  }
+
+  .nav__link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    letter-spacing: 1.5px;
+  }
+  .nav__btn {
+    display: block;
+    width: 15%;
+    background-color: var(--btn-blue);
+    transition: 0.2s ease-in-out;
+  }
+  .nav__btn:hover {
+    background-color: white;
+    color: var(--btn-blue);
+    box-shadow: 0 0 0 3px var(--btn-blue);
+  }
+  .hamburger-icon {
+    display: none;
+  }
+
+  /* HERO */
+  .hero__container {
+    padding: 100px 80px 0 80px;
+  }
+  .hero__header {
+    padding-top: 80px;
+  }
+  .hero__image {
+    margin: 0;
   }
 }
