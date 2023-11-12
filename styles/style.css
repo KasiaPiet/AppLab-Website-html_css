@@ -38,7 +38,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  max-height: 95vh;
 }
 
 /* MOBILE */
@@ -79,6 +79,7 @@ header {
 /* MAIN HERO */
 .hero__container {
   padding: 20px;
+  height: 100%;
 }
 /* .hero__header {
   border: 2px solid orange;
@@ -108,9 +109,9 @@ header {
   text-align: center;
   margin-top: 80px;
   width: 100%;
-  height: 100%;
-
-  /* height: 600px; */
+  height: 550px;
+  overflow: hidden;
+  padding: 10px 0;
 }
 .hero__image img {
   max-width: 100%;
@@ -168,6 +169,25 @@ input:checked ~ .hamburger-icon {
 input:checked ~ .nav__list {
   display: flex;
 }
+
+/* FEATURES SECTION */
+.feature__image {
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #207cca 15%,
+    #2989d8 50%,
+    #7db9e8 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+/* TABLET */
 @media (min-width: 900px) {
   /* HERO */
   .hero__container {
@@ -181,6 +201,9 @@ input:checked ~ .nav__list {
     width: 50%;
   }
 }
+
+/* DESKTOP  */
+
 @media (min-width: 1200px) {
   /* NAV */
   .nav {
