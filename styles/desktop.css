@@ -36,10 +36,10 @@
   }
 
   /* HERO */
-  .hero__header,
+  /* .hero__header,
   .hero__image {
-    width: 50%;
-  }
+    width: 45%;
+  } */
   .hero__header {
     padding-top: 100px;
   }

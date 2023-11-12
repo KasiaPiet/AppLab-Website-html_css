@@ -124,18 +124,35 @@ input:checked ~ .nav__list {
 
 /* FEATURES SECTION */
 
+.features__container {
+  padding: 20px;
+}
+.features__list {
+  padding: 40px 0;
+}
+.feature__image,
+.feature__name {
+  margin: 25px auto;
+}
+.feature__name {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 60%;
+}
 .feature__image {
-  background: linear-gradient(
-    to right,
-    #1e5799 0%,
-    #207cca 15%,
-    #2989d8 50%,
-    #7db9e8 100%
-  );
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+.feature__image--blue {
+  background: linear-gradient(to right, #6db3f2 0%, #3690f0 54%, #1e69de 100%);
+}
+.feature__image--orange {
+  background: linear-gradient(45deg, #ffa84c 0%, #ff7b0d 100%);
+}
+.feature__image--green {
+  background: linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%);
 }
