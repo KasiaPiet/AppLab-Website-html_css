@@ -36,13 +36,11 @@
   }
 
   /* HERO */
-  .hero__container {
-    padding: 100px 80px 0 80px;
+  .hero__header,
+  .hero__image {
+    width: 50%;
   }
   .hero__header {
-    padding-top: 80px;
-  }
-  .hero__image {
-    margin: 0;
+    padding-top: 100px;
   }
 }
