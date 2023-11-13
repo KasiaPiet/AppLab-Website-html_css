@@ -23,7 +23,7 @@
   .nav__btn {
     display: block;
     width: 15%;
-    background-color: var(--btn-blue);
+    background-color: var(--btn-light-blue);
     transition: 0.2s ease-in-out;
   }
   .nav__btn:hover {
@@ -42,5 +42,10 @@
   } */
   .hero__header {
     padding-top: 100px;
+  }
+  /* FEATURES */
+  .features__container {
+    justify-content: space-around;
+    align-items: center;
   }
 }

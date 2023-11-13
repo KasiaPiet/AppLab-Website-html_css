@@ -24,6 +24,28 @@
     justify-content: center;
   }
   .services__header {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  .services__item {
+    width: 30%;
+  }
+  /* FEATURES */
+  .features__container {
+    display: flex;
+    justify-content: center;
+
+    /* padding: 20px; */
+  }
+  .features__about,
+  .features__image {
+    width: 40%;
+  }
+  .features__header {
+    text-align: left;
+    font-size: 2.3rem;
+  }
+  .features__image {
+    display: flex;
+    align-items: center;
   }
 }

@@ -134,6 +134,7 @@ input:checked ~ .nav__list {
 .service__name {
   margin: 25px auto;
 }
+
 .service__name {
   text-align: center;
   font-size: 1.2rem;
@@ -155,4 +156,32 @@ input:checked ~ .nav__list {
 }
 .service__image--green {
   background: linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%);
+}
+
+/* FEATURES */
+.features__container {
+  padding: 15px;
+}
+.features__text {
+  margin: 20px 0;
+  font-weight: lighter;
+}
+
+.features__btn {
+  background-color: var(--btn-blue);
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.features__btn:hover {
+  background-color: white;
+  box-shadow: 0 0 0 2px var(--btn-blue);
+  color: var(--btn-blue);
+}
+.features__image {
+  width: 100%;
+  margin-bottom: 50px;
+  border: 2px solid red;
+}
+.features__image img {
+  max-width: 100%;
 }
