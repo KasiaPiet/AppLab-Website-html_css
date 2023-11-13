@@ -287,3 +287,22 @@ input:checked ~ .nav__list {
   color: var(--btn-blue);
   border: 2px solid var(--btn-blue);
 }
+.download {
+  background-color: var(--btn-blue);
+  color: white;
+}
+.download__container {
+  padding: 70px 20px;
+}
+
+.download__icons {
+  display: flex;
+
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.download__icons img {
+  height: 50px;
+  margin: 0 3px;
+}

@@ -54,4 +54,19 @@
     width: 90%;
     font-size: 1.2rem;
   }
+  /* DOWNLOAD ASIDE */
+
+  .download__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 20px;
+  }
+  .download__header {
+    font-size: 2rem;
+    width: 40%;
+    text-align: right;
+  }
+  .download__icons {
+    width: 60%;
+  }
 }
