@@ -36,10 +36,7 @@
   }
 
   /* HERO */
-  /* .hero__header,
-  .hero__image {
-    width: 45%;
-  } */
+
   .hero__header {
     padding-top: 100px;
   }
@@ -48,8 +45,10 @@
     justify-content: space-around;
     align-items: center;
   }
+
+  /* REVIEWS */
   .reviews__header {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .reviews__text {
     width: 90%;

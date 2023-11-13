@@ -48,6 +48,9 @@
     display: flex;
     align-items: center;
   }
+
+  /* REVIEWS */
+
   .reviews__header {
     width: 40%;
     margin: 0 auto;
