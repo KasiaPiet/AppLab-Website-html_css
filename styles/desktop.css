@@ -69,4 +69,22 @@
   .download__icons {
     width: 60%;
   }
+  /* DETAILS */
+
+  .details__container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .details__header {
+    width: 40%;
+    margin-left: 10px;
+  }
+  .details__header-text {
+    width: 70%;
+  }
+
+  .details__nav {
+    width: 15%;
+  }
 }

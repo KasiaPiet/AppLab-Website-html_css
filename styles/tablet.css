@@ -72,4 +72,18 @@
   .pricing__item--main {
     z-index: 2;
   }
+  /* DETAILS */
+  .details__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  .details__header {
+    width: 35%;
+  }
+
+  .details__nav {
+    width: 35%;
+  }
 }

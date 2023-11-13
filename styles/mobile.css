@@ -287,6 +287,9 @@ input:checked ~ .nav__list {
   color: var(--btn-blue);
   border: 2px solid var(--btn-blue);
 }
+
+/* DOWNLOAD ASIDE */
+
 .download {
   background-color: var(--btn-blue);
   color: white;
@@ -305,4 +308,52 @@ input:checked ~ .nav__list {
 .download__icons img {
   height: 50px;
   margin: 0 3px;
+}
+/* DETAILS */
+
+.details {
+  background-color: var(--nav-color);
+  color: white;
+}
+.details__container {
+  padding: 60px 20px;
+  line-height: 3;
+}
+
+.details__header-logo {
+  padding-top: 3%;
+}
+.details__header-text {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.details__header-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  padding: 30px 0;
+}
+.details__header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: gray;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.details__nav-title {
+  font-size: 1.4rem;
+}
+.details__nav-link {
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+.details__nav-link:hover {
+  color: white;
+  letter-spacing: 2px;
 }

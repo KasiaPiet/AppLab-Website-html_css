@@ -38,7 +38,7 @@ h2 {
   font-size: 1rem;
 }
 
-header {
+.header {
   background-image: url(../images/banner/banner.png);
   background-repeat: no-repeat;
   background-position: center;
