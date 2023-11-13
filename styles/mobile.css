@@ -180,8 +180,58 @@ input:checked ~ .nav__list {
 .features__image {
   width: 100%;
   margin-bottom: 50px;
-  border: 2px solid red;
 }
 .features__image img {
   max-width: 100%;
+}
+/* REVIEWS */
+
+.reviews {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+.reviews__background {
+  position: relative;
+  height: 100%;
+  background-image: url('../images/banner/testmonial.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #69b5fb;
+  opacity: 0.9;
+  z-index: 1;
+  border: 2px solid orange;
+}
+.reviews__container {
+  z-index: 2;
+  padding: 50px 30px 100px 30px;
+}
+.reviews__text {
+  margin: 20px 0;
+  font-weight: lighter;
+}
+.reviews__stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__stars p {
+  margin-left: 5px;
+}
+.fa-star {
+  color: yellow;
 }

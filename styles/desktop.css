@@ -48,4 +48,11 @@
     justify-content: space-around;
     align-items: center;
   }
+  .reviews__header {
+    font-size: 2.5rem;
+  }
+  .reviews__text {
+    width: 90%;
+    font-size: 1.2rem;
+  }
 }
