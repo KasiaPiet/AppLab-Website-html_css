@@ -217,7 +217,7 @@ input:checked ~ .nav__list {
 }
 .reviews__container {
   z-index: 2;
-  padding: 50px 20px 100px 20px;
+  padding: 90px 20px 150px 20px;
 }
 .reviews__text {
   margin: 20px 0;

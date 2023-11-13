@@ -58,6 +58,18 @@
   }
   .reviews__text {
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
+  }
+  /* PRICING */
+  .pricing__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing__item {
+    width: 30%;
+  }
+  .pricing__item--main {
+    z-index: 2;
   }
 }
