@@ -86,4 +86,7 @@
   .details__nav {
     width: 35%;
   }
+  .copyrights__text a {
+    display: inline;
+  }
 }

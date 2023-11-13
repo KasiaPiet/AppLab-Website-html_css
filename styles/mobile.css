@@ -357,3 +357,17 @@ input:checked ~ .nav__list {
   color: white;
   letter-spacing: 2px;
 }
+
+/* FOOTER */
+
+.copyrights {
+  background-color: black;
+  text-align: center;
+}
+.copyrights__container {
+  padding: 20px;
+}
+.copyrights__text {
+  color: white;
+  font-size: 0.8rem;
+}
