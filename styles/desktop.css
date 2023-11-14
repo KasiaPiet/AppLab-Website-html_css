@@ -20,8 +20,7 @@
   .nav__link:hover,
   .dropdown__link:hover {
     color: white;
-    border-bottom: 2px solid white;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
   }
   .nav__btn {
     display: block;
