@@ -2,13 +2,15 @@
 
 @media (min-width: 1200px) {
   /* NAV */
+  h2 {
+    font-size: 2.3rem;
+  }
+
   .nav {
     background-color: transparent;
     justify-content: space-between;
   }
-  .nav__logo {
-    width: 10%;
-  }
+
   .nav__list {
     display: flex;
     flex-wrap: nowrap;
@@ -24,7 +26,7 @@
     display: block;
     width: 15%;
     background-color: var(--btn-light-blue);
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .nav__btn:hover {
     background-color: white;
@@ -41,34 +43,34 @@
     padding-top: 100px;
   }
   /* FEATURES */
+
   .features__container {
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
   }
 
   /* REVIEWS */
-  .reviews__header {
-    font-size: 2.2rem;
-  }
+
   .reviews__text {
-    width: 90%;
-    font-size: 1.2rem;
+    width: 80%;
+    font-size: 1rem;
   }
   /* DOWNLOAD ASIDE */
 
   .download__container {
     display: flex;
-    justify-content: space-between;
-    padding: 120px 20px;
+    justify-content: center;
+    padding: 120px 40px;
   }
   .download__header {
-    font-size: 2rem;
-    width: 40%;
-    text-align: right;
+    width: 50%;
+    text-align: left;
   }
   .download__icons {
-    width: 60%;
+    width: 50%;
   }
+
   /* DETAILS */
 
   .details__container {

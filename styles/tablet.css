@@ -1,10 +1,14 @@
 /* TABLET */
+
 @media (min-width: 900px) {
+  h2 {
+    font-size: 2.2rem;
+  }
   /* HERO */
+
   .hero__container {
     display: flex;
     justify-content: center;
-    /* padding: 80px 50px 0 90px; */
   }
   .hero__title {
     font-size: 2.5rem;
@@ -19,17 +23,20 @@
     padding-top: 50px;
   }
   /* SERVICES */
+
   .services__list {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
   .services__header {
-    font-size: 2.1rem;
+    margin: 60px 0 20px 0;
   }
   .services__item {
     width: 30%;
   }
   /* FEATURES */
+
   .features__container {
     display: flex;
     justify-content: center;
@@ -42,7 +49,6 @@
   }
   .features__header {
     text-align: left;
-    font-size: 2.1rem;
   }
   .features__image {
     display: flex;
@@ -54,17 +60,22 @@
   .reviews__header {
     width: 40%;
     margin: 0 auto;
-    font-size: 2.1rem;
   }
   .reviews__text {
     width: 80%;
     margin: 30px auto;
+    font-size: 1rem;
   }
   /* PRICING */
+
+  .pricing__header {
+    margin-top: 60px;
+  }
   .pricing__list {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
   }
   .pricing__item {
     width: 30%;
@@ -72,7 +83,16 @@
   .pricing__item--main {
     z-index: 2;
   }
+
+  /* DOWNLOAD */
+
+  .download__header {
+    width: 75%;
+    margin: 0 auto 20px auto;
+  }
+
   /* DETAILS */
+
   .details__container {
     display: flex;
     flex-wrap: wrap;

@@ -12,15 +12,13 @@
 .nav__btn {
   display: none;
 }
-.nav__logo {
-  width: 100%;
-}
 .nav__list {
   display: none;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 10px;
 }
 .nav__item {
   width: 100%;
@@ -28,7 +26,7 @@
 }
 .nav__link {
   color: white;
-  padding: 5px 5px;
+  padding: 10px 5px;
   letter-spacing: 1.5;
 }
 
@@ -36,9 +34,7 @@
 .hero__container {
   padding: 20px;
 }
-.hero__header {
-  border: 2px solid orange;
-}
+
 .hero__title {
   color: white;
   font-weight: lighter;
@@ -64,7 +60,6 @@
   justify-content: center;
   text-align: center;
   padding-top: 50px;
-  border: 1px solid green;
 }
 .hero__image img {
   max-width: 380px;
@@ -125,10 +120,13 @@ input:checked ~ .nav__list {
 /* SERVICES SECTION */
 
 .services__container {
-  padding: 20px;
+  padding: 10px;
+}
+.services__header {
+  margin-top: 10px;
 }
 .services__list {
-  padding: 40px 0;
+  padding: 30px 0 70px 0;
 }
 .service__image,
 .service__name {
@@ -138,6 +136,7 @@ input:checked ~ .nav__list {
 .service__name {
   text-align: center;
   font-size: 1.2rem;
+  font-weight: lighter;
   width: 60%;
 }
 .service__image {
@@ -159,6 +158,7 @@ input:checked ~ .nav__list {
 }
 
 /* FEATURES */
+
 .features__container {
   padding: 15px;
 }
@@ -170,7 +170,7 @@ input:checked ~ .nav__list {
 .features__btn {
   background-color: var(--btn-blue);
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .features__btn:hover {
   background-color: white;
@@ -187,12 +187,7 @@ input:checked ~ .nav__list {
 
 .reviews {
   position: relative;
-  overflow: hidden;
   min-height: 300px;
-}
-.reviews__background {
-  position: relative;
-  height: 100%;
   background-image: url('../images/banner/testmonial.png');
   background-size: cover;
   background-position: center;
@@ -203,7 +198,7 @@ input:checked ~ .nav__list {
   justify-content: center;
 }
 
-.reviews__background::before {
+.reviews::after {
   content: '';
   position: absolute;
   top: 0;
@@ -212,11 +207,11 @@ input:checked ~ .nav__list {
   height: 100%;
   background-color: var(--btn-blue);
   opacity: 0.7;
-  z-index: 1;
+
   overflow: hidden;
 }
 .reviews__container {
-  z-index: 2;
+  z-index: 1;
   padding: 90px 20px 150px 20px;
 }
 .reviews__text {
@@ -236,8 +231,12 @@ input:checked ~ .nav__list {
 }
 
 /* PRICING */
+
 .pricing__container {
   padding: 20px;
+}
+.pricing__header {
+  margin-top: 30px;
 }
 .pricing__text {
   margin: 20px 0;
@@ -286,6 +285,11 @@ input:checked ~ .nav__list {
   background-color: white;
   color: var(--btn-blue);
   border: 2px solid var(--btn-blue);
+  transition: 0.3s ease-in-out;
+}
+.pricing__item-button:hover {
+  background-color: var(--btn-blue);
+  color: white;
 }
 
 /* DOWNLOAD ASIDE */
@@ -300,7 +304,6 @@ input:checked ~ .nav__list {
 
 .download__icons {
   display: flex;
-
   padding-top: 20px;
   align-items: center;
   justify-content: center;
@@ -317,22 +320,18 @@ input:checked ~ .nav__list {
 }
 .details__container {
   padding: 60px 20px;
-  line-height: 3;
 }
 
-.details__header-logo {
-  padding-top: 3%;
-}
 .details__header-text {
-  line-height: 1.5;
   font-size: 1rem;
+  padding: 15px 0;
   font-weight: lighter;
 }
 .details__header-icons {
   display: flex;
   justify-content: space-around;
   width: 150px;
-  padding: 30px 0;
+  padding: 20px 0 30px 0;
 }
 .details__header-icon {
   display: flex;
@@ -347,11 +346,13 @@ input:checked ~ .nav__list {
 }
 .details__nav-title {
   font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 .details__nav-link {
   color: white;
   font-weight: lighter;
   font-size: 0.9rem;
+  padding: 15px 0;
 }
 .details__nav-link:hover {
   color: white;

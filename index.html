@@ -30,7 +30,7 @@
   </head>
   <body>
     <header class="header row">
-      <nav class="nav container">
+      <nav class="header__nav nav container">
         <a
           class="nav__logo"
           href="#"
@@ -92,21 +92,22 @@
         </ul>
         <button class="nav__btn btn">Download</button>
       </nav>
-      <main class="hero row"></main>
-      <div class="hero__container container">
-        <article class="hero__header">
-          <h1 class="hero__title">Promote Your App With AppLab</h1>
-          <p class="hero__text">
-            Get more users to promote your app with this template
-          </p>
-          <button class="hero__btn btn">Get Start Now</button>
-        </article>
-        <div class="hero__image">
-          <img
-            src="./images/phone.png"
-            alt="phone" />
+      <main class="header__hero hero row">
+        <div class="hero__container container">
+          <article class="hero__header">
+            <h1 class="hero__title">Promote Your App With AppLab</h1>
+            <p class="hero__text">
+              Get more users to promote your app with this template
+            </p>
+            <button class="hero__btn btn">Get Start Now</button>
+          </article>
+          <figure class="hero__image">
+            <img
+              src="./images/phone.png"
+              alt="phone" />
+          </figure>
         </div>
-      </div>
+      </main>
     </header>
     <section class="services row">
       <div class="services__container container">
@@ -116,7 +117,7 @@
             <div class="service__image service__image--blue">
               <img
                 src="./images/icons/2.svg"
-                alt="" />
+                alt="icon" />
             </div>
             <h3 class="service__name">Manage team in One Place</h3>
           </li>
@@ -124,7 +125,7 @@
             <div class="service__image service__image--orange">
               <img
                 src="./images/icons/1.svg"
-                alt="" />
+                alt="icon" />
             </div>
             <h3 class="service__name">All-powerful Pointing has no control</h3>
           </li>
@@ -132,7 +133,7 @@
             <div class="service__image service__image--green">
               <img
                 src="./images/icons/3.svg"
-                alt="" />
+                alt="icon" />
             </div>
             <h3 class="service__name">Establish a solid online presence</h3>
           </li>
@@ -158,21 +159,19 @@
       </div>
     </section>
     <section class="reviews row">
-      <div class="reviews__background row">
-        <div class="reviews__container container">
-          <h2 class="reviews__header">Review from our regular users</h2>
-          <p class="reviews__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta
-            labore accusamus placeat eos est doloribus! Tempore perspiciatis
-            modi quos nisi enim ipsam repellendus? Praesentium nesciunt eos
-            voluptate sit necessitatibus?
-          </p>
-          <div class="reviews__stars">
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-            ><i class="fa-solid fa-star"></i>
-            <p>- Robert Smile</p>
-          </div>
+      <div class="reviews__container container">
+        <h2 class="reviews__header">Review from our regular users</h2>
+        <p class="reviews__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta
+          labore accusamus placeat eos est doloribus! Tempore perspiciatis modi
+          quos nisi enim ipsam repellendus? Praesentium nesciunt eos voluptate
+          sit necessitatibus?
+        </p>
+        <div class="reviews__stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+          <p>- Robert Smile</p>
         </div>
       </div>
     </section>
@@ -279,7 +278,7 @@
             ></a>
           </div>
         </header>
-        <nav class="details__nav nav-services">
+        <nav class="details__nav">
           <h3 class="details__nav-title">Services</h3>
           <ul class="details__nav-list">
             <li class="details__nav-item">
@@ -312,7 +311,7 @@
             </li>
           </ul>
         </nav>
-        <nav class="details__nav nav-services">
+        <nav class="details__nav">
           <h3 class="details__nav-title">Useful Links</h3>
           <ul class="details__nav-list">
             <li class="details__nav-item">
@@ -345,7 +344,7 @@
             </li>
           </ul>
         </nav>
-        <nav class="details__nav nav-services">
+        <nav class="details__nav">
           <h3 class="details__nav-title">Downloads</h3>
           <ul class="details__nav-list">
             <li class="details__nav-item">
